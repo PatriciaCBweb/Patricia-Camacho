@@ -1,0 +1,54 @@
+body{
+	max-width: 1700px;
+	margin: 50px auto;
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+}
+#dadosC{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.dado{
+	padding: 5px 15px 20px 15px;
+	text-align: center;
+}
+h1 a{
+	color: black;
+	text-decoration: none;
+}
+h1{
+	text-align: center;	
+	font-size: 28px;
+}
+#send{
+	text-align: center;
+	margin: auto;
+}
+#volver{
+	color: black;
+	text-decoration: none;
+}
+#credito{
+	text-align: center;
+}
+h2{
+	font-size: 18px;
+}
+img{
+	width: 230px;
+}
+position{
+	text-align: center;
+}
+table{
+	width: 230px;
+	margin: auto;
+}
+td,th{
+	padding: 3px 5px;
+}
