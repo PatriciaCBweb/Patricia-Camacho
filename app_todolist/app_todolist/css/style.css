@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+	height: 100vh;
+}
+
+.bg{
+	background-color: #333;
+}
+.bg2{
+	background-color: #777;
+}
+.bg_main{
+	color: #000;
+	background-color: #ddd;
+	height: 100%;
+}
+.icono{
+    font-size: 30px;
+    color: #fff;
+}
+.icono2{
+	font-size: 30px;
+    color: #fff;
+}
+.icono:hover,.icono2:hover{
+	background-color: #6c757d;
+	color: #eee;
+	border-radius: 5px;
+}
+
+.plus{
+	font-size: 25px;
+}
+
+.new_task{
+	max-width: 500px;
+}
+
+.main{
+    position : relative;
+    width: auto;
+}
+
+.auto{
+	height: auto;
+}
+
+.font_12{
+	font-size: 12px;
+}
