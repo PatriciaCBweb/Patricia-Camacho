@@ -1,0 +1,16 @@
+/* CSS Document */
+/*
+ * file: style.css
+ * 
+ * Description: Main css file
+ *
+ */
+
+/* Este documento contiene los estilos especificos que    */
+/* necesitamos en nuestro documento, utilizando el nombre */
+/* por defecto style.css para mantener uniforme el desa-  */
+/* rrollo de nuestro proyecto                             */
+
+.mensajeError {
+    color: red;
+}
