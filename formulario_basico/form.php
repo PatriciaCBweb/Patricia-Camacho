@@ -113,7 +113,7 @@
     
     ?>
     <hr>
-    <form action="form_pr3_Patricia.php" method="post" >
+    <form action="form.php" method="post" >
         <fieldset style="padding-top: 20px; margin-top: 30px;">
         <legend>Formulario</legend>
         <label>Nombre: </label>
@@ -144,7 +144,7 @@
         <br><br>
         <button type="submit" name="action"  value="calcular">Enviar</button>
         </fieldset>
-        <p><a href="form_pr3_Patricia.php">Volver a iniciar</a></p>
+        <p><a href="form.php">Volver a iniciar</a></p>
     </form> 
 
 </body>
