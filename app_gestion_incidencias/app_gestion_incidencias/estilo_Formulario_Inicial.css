@@ -1,0 +1,30 @@
+body{
+	background: #D3DFEE;
+}
+#contenedor{
+	border: 1px solid #4F81BD;
+	width: 600px;
+	margin: 20px auto;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	background: #fff;
+}
+h1{
+	text-align: center;
+}
+h2{
+	text-align: center;
+	margin-bottom:10px;
+}
+p{
+	text-align: center;
+}
+table{
+	margin: auto;
+}
+.caja{
+	width: 300px;
+}
+.date{
+	width: 304px;
+}
+

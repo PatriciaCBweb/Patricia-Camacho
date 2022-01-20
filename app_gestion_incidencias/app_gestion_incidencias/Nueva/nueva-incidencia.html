@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Añadir incidencia</title>
+    <link href="../estilo_Formulario_Inicial.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="contenedor">
+        <h2>Nueva incidencia</h2>
+        <form action="confirmar-nueva.php" method="get">
+            <table>
+                <tr>
+                    <td>Nº de Incidencia</td>
+                    <td><input type="text" class="caja" name="n_inci" id='n_inci' maxlength='6'></td>
+                </tr>
+                <tr>
+                    <td>Aparato</td>
+                    <td><input type="text" class="caja" name="aparato" id='aparato' maxlength='20'></td>
+                </tr>
+                <tr>
+                    <td>Nombre</td>
+                    <td><input type="text" class="caja" name="nombre" id='nombre' maxlength='50'></td>
+                </tr>
+                <tr>
+                    <td>Dirección</td>
+                    <td><input type="text" class="caja" name="direccion" id='direccion' maxlength='50'></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="text" class="caja" name="email" id='email' maxlength='50'></td>
+                </tr>
+                <tr>
+                    <td>Descripción</td>
+                    <td><input type="text" class="caja" name="descripcion" id='descripcion'></td>
+                </tr>
+                <tr>
+                    <td>Fecha</td>
+                    <td><input type="date" class="caja date" name="fecha" id='fecha'></td>
+                </tr>
+                <tr>
+                    <td class="botones" colspan="2"><p><a href="../index.html"><input type="button" value="Atrás"></a>&nbsp; <input type="submit" value="Crear"></p></td>     
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
